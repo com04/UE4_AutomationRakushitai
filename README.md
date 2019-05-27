@@ -8,8 +8,7 @@ https://www.slideshare.net/com044/ue4-147749405
 
 UE4のAutomation Testを使用しています。  
 セッションフロントエンドのオートメーションタブのこの辺りです  
-![2019-05-27_19h24_36](https://user-images.githubusercontent.com/11537958/58415091-5b8fcf80-80b8-11e9-8fa0-7ec2a6144d8b.png)
-
+![2019-05-27_19h24_36](https://user-images.githubusercontent.com/11537958/58415091-5b8fcf80-80b8-11e9-8fa0-7ec2a6144d8b.png)  
 
 
 各種、csv形式で見ることを前提にログを出しています
@@ -63,3 +62,12 @@ UE4のAutomation Testを使用しています。
         - QuadOverdraw: 1ピクセルに複数描画されている情報で撮影。ただし、エディターから実行した時のみです
     - 合わせてCSV Profileを取っています
         - Saved/Profiling/CSV/ の中に保存されます
+
+## パッケージ版用bat
+ディレクトリにPackageScriptフォルダがあります  
+![2019-05-27_20h28_39](https://user-images.githubusercontent.com/11537958/58416905-0c4c9d80-80be-11e9-8ea4-bd255061f30d.png)  
+この中の "TestBatフォルダ" をパッケージ版の.exeと同じフォルダに入れて、後は中にあるbatをダブルクリックで実行します。  
+![2019-05-27_20h32_09](https://user-images.githubusercontent.com/11537958/58417029-82510480-80be-11e9-82ed-10641590f568.png)  
+実行すると、自動で起動してテスト、終わったらプログラムが終了します。  
+ログは、.exeと同じ階層の "プロジェクト名フォルダ/Save/" 以下になります  
+![2019-05-27_20h30_40](https://user-images.githubusercontent.com/11537958/58416977-4c138500-80be-11e9-9213-09e5e88bf184.png)  
